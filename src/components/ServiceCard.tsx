@@ -47,7 +47,7 @@ const ServiceCard = ({
     <Card className="group overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
       {featured && (
         <Badge className="absolute top-3 left-3 z-10 bg-warning text-warning-foreground">
-          Featured
+          Destaque
         </Badge>
       )}
       
@@ -77,7 +77,7 @@ const ServiceCard = ({
             <div className="text-lg font-bold text-primary">
               ${price.min} - ${price.max}
             </div>
-            <div className="text-xs text-muted-foreground">per service</div>
+            <div className="text-xs text-muted-foreground">por serviço</div>
           </div>
         </div>
 
@@ -121,10 +121,10 @@ const ServiceCard = ({
       <CardFooter className="p-4 pt-2 gap-2">
         <Button variant="outline" size="sm" className="flex-1">
           <MessageSquare className="h-4 w-4" />
-          Contact
+          Contatar
         </Button>
         <Button size="sm" className="flex-1">
-          Get Quote
+          Obter Orçamento
         </Button>
       </CardFooter>
     </Card>

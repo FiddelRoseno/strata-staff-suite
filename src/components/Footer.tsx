@@ -28,16 +28,16 @@ const Footer = () => {
                 <span className="font-bold text-xl text-foreground">StrataWork</span>
               </div>
               <p className="text-muted-foreground mb-6 max-w-md">
-                Connecting condominium communities with trusted service professionals. 
-                Find reliable workers or offer your services to local residents.
+                Conectando comunidades de condomínios com profissionais de serviços confiáveis. 
+                Encontre trabalhadores confiáveis ou ofereça seus serviços para residentes locais.
               </p>
               
               {/* Newsletter */}
               <div className="mb-6">
-                <h4 className="font-semibold mb-2">Stay Updated</h4>
+                <h4 className="font-semibold mb-2">Mantenha-se Atualizado</h4>
                 <div className="flex gap-2 max-w-sm">
-                  <Input placeholder="Enter your email" className="flex-1" />
-                  <Button>Subscribe</Button>
+                  <Input placeholder="Digite seu email" className="flex-1" />
+                  <Button>Inscrever-se</Button>
                 </div>
               </div>
 
@@ -60,29 +60,29 @@ const Footer = () => {
 
             {/* Quick Links */}
             <div>
-              <h4 className="font-semibold mb-4">Quick Links</h4>
+              <h4 className="font-semibold mb-4">Links Rápidos</h4>
               <div className="space-y-2">
                 <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
-                  Find Services
+                  Encontrar Serviços
                 </a>
                 <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
-                  Become a Provider
+                  Seja um Prestador
                 </a>
                 <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
-                  How It Works
+                  Como Funciona
                 </a>
                 <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
-                  Pricing
+                  Preços
                 </a>
                 <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
-                  Help Center
+                  Central de Ajuda
                 </a>
               </div>
             </div>
 
             {/* Contact Info */}
             <div>
-              <h4 className="font-semibold mb-4">Contact</h4>
+              <h4 className="font-semibold mb-4">Contato</h4>
               <div className="space-y-3">
                 <div className="flex items-center space-x-2 text-muted-foreground">
                   <Phone className="h-4 w-4" />
@@ -102,10 +102,10 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-2">
                   <Star className="h-4 w-4 fill-warning text-warning" />
-                  <span>4.9/5 Average Rating</span>
+                  <span>Avaliação Média 4.9/5</span>
                 </div>
                 <div className="text-sm text-muted-foreground">
-                  Trusted by 500+ Communities
+                  Confiado por 500+ Comunidades
                 </div>
               </div>
             </div>
@@ -122,13 +122,13 @@ const Footer = () => {
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                Privacy Policy
+                Política de Privacidade
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                Terms of Service
+                Termos de Serviço
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                Cookie Policy
+                Política de Cookies
               </a>
             </div>
           </div>
