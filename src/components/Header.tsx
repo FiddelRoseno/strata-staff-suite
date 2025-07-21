@@ -27,7 +27,7 @@ const Header = () => {
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <input
               type="text"
-              placeholder="Search services, workers..."
+              placeholder="Buscar serviços, profissionais..."
               className="w-full rounded-lg border bg-background pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
             />
           </div>
@@ -47,11 +47,11 @@ const Header = () => {
 
           <Button variant="outline" size="sm" className="hidden sm:flex">
             <User className="h-4 w-4" />
-            Profile
+            Perfil
           </Button>
 
           <Button variant="default" size="sm" className="hidden sm:flex">
-            Post Service
+            Postar Serviço
           </Button>
 
           <Button variant="ghost" size="icon" className="sm:hidden">
